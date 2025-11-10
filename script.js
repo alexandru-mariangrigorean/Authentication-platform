@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.location.href = 'dashbord.html';
   }
 
-  // Login handler
+
   if (formLogin) {
     formLogin.addEventListener('submit', (e) => {
       e.preventDefault();
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Register handler
+
   if (formRegister) {
     formRegister.addEventListener('submit', (e) => {
       e.preventDefault();
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Reset handler
+
   if (formReset) {
     formReset.addEventListener('submit', (e) => {
       e.preventDefault();
